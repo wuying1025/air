@@ -35,19 +35,16 @@ table{border-collapse:collapse;border-spacing:0;}
     color: #fff;
     background: #0177d5;
 }
-.el-table{
-    font-size: 16px;
-}
 
 /* 修改input select  元素样式 */
 .el-input--medium .el-input__inner {
-    height: 44px;
-    line-height: 44px;
-    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
 }
 
 .el-input--medium .el-input__icon {
-    line-height: 44px;
+    line-height: 40px;
 }
 /* main-tabs 修改tabs的样式 */
 .el-tabs--card>.el-tabs__header .el-tabs__item{
@@ -63,7 +60,7 @@ table{border-collapse:collapse;border-spacing:0;}
 }
 .el-tabs--card>.el-tabs__header .el-tabs__item {
     color:#fff;
-    font-size:18px;
+    font-size:16px;
     font-weight: normal;
     padding: 5px 25px;
     height:auto;
@@ -74,16 +71,53 @@ table{border-collapse:collapse;border-spacing:0;}
 .el-tabs--card>.el-tabs__header{
     border:none;
 }
-.el-pagination button, .el-pagination span:not([class*=suffix]){
-    font-size: 16px;
-}
+
 .icon-Shape{
     color:#4977fc;
     margin-right:3px;
 }
-.el-pager li{
-    font-size: 16px;
-    min-width: 36.5px;
-    height: 30px;
-    line-height: 30px;
+
+
+/* 面包屑 */
+.el-breadcrumb__inner {
+    color: #fff;
+  }
+  .el-breadcrumb__item:last-child .el-breadcrumb__inner {
+    color: #fff;
+  }
+  .el-breadcrumb__separator {
+    margin: 0 5px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  /* menu菜单样式重置 */
+.icon-zuzhijiagou{
+    color: #001d6f;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.el-submenu__title{
+    outline: 0px;
+    border-left:5px solid #fff;
+    background-color: #fff;
+}
+.el-submenu__title:focus, .el-submenu__title:hover {
+    outline: 0px;
+    border-left:5px solid #001d6f;
+    background-color: #e9eafc;
+}
+.el-submenu__title{
+    font-size: 15px;
+}
+.el-submenu__title i{
+    color:#001d6f;
+    font-size: 15px;
+}
+.el-menu-item{
+    font-size: 15px;
+}
+.el-menu-item, .el-submenu__title{
+    height:40px;
+    line-height: 40px;
 }
